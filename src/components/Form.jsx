@@ -23,7 +23,7 @@ export const Form = () => {
   }
 
   return (
-    <div action="#" method="post" className='form'>
+    <div action="#" className='form'>
       <h1 className='form__title'>
         We're <span>coming soon</span>
       </h1>
