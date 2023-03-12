@@ -1,0 +1,72 @@
+.form {
+  padding: 3.5em 2em;
+  h1 {
+    color: $DesaturatedRed;
+    font-weight: 300;
+    font-size: 5.2rem;
+    text-align: center;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    span {
+      font-weight: 700;
+      color: $DarkGrayishRed;
+    }
+  }
+  p {
+    text-align: center;
+    color: $DesaturatedRed;
+    font-size: 1.6rem;
+    margin: 1.5em 0;
+  }
+  form {
+    position: relative;
+    .labelError{
+      position: absolute;
+      bottom: -2em;
+      left: 2.2em;
+      font-size: 1.2rem;
+      color: rgba($SoftRed, .9);
+      display: none;
+    }
+    .iconError {
+      display: none;
+      position: absolute;
+      right: 5em;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+    }
+    .showError {
+      display: block;
+    }
+    input {
+      outline: none;
+      border: none;
+      padding: .8em 1.5em;
+      width: 100%;
+      border: .1em solid $DesaturatedRed;
+      background: transparent;
+      border-radius: 2em;
+      color: $DesaturatedRed;
+      font-size: 1.6rem;
+      &::placeholder {
+        color: rgba($DesaturatedRed, .7);
+      }
+    }
+    button {
+      position: absolute;
+      right: 0;
+      height: 100%;
+      width: 70px;
+      background-image: url('../assets/icon-arrow.svg');
+      background-position: center;
+      background-size: 15px;
+      background-repeat: no-repeat;
+      border: none;
+      background-color: hsl(0, 74%, 74%);
+      border-radius: 1.7em;
+      cursor: pointer;
+    }
+  }
+}

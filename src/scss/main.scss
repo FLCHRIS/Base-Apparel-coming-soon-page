@@ -1,0 +1,11 @@
+.main {
+  font-size: 1.6rem;
+  font-family: $font;
+  min-height: 100vh;
+  background-image: $gradient;
+  a {
+    img {
+      padding: 2em;
+    }
+  }
+}
