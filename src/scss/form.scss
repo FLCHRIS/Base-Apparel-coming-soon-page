@@ -1,5 +1,8 @@
 .form {
   padding: 3.5em 2em;
+  width: 90%;
+  max-width: 500px;
+  margin: 0 auto;
   h1 {
     color: $DesaturatedRed;
     font-weight: 300;
@@ -21,6 +24,7 @@
   }
   form {
     position: relative;
+    width: 100%;
     .labelError{
       position: absolute;
       bottom: -2em;
@@ -67,6 +71,22 @@
       background-color: hsl(0, 74%, 74%);
       border-radius: 1.7em;
       cursor: pointer;
+    }
+  }
+}
+
+@media screen and (min-width: 607px) {
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1 {
+      text-align: start;
+      letter-spacing: 9px;
+    }
+    p {
+      text-align: start;
     }
   }
 }

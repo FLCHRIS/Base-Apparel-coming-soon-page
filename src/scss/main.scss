@@ -8,4 +8,34 @@
       padding: 2em;
     }
   }
+  picture {
+    width: 100%;
+    img {
+      object-fit: cover;
+      width: 100%;
+    }
+  }
+}
+@media screen and (min-width: 607px){
+  .main{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100vh;
+    grid-template-areas: 'form img';
+    a {
+      position: absolute;
+      margin: 1em 2em;
+    }
+    picture {
+      grid-area: img;
+      width: auto;
+      height: 100%;
+      img {
+        grid-area: img;
+        // width: 100%;
+         height: 100%;
+      }
+    }
+  }
 }

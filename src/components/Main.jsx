@@ -7,11 +7,11 @@ import { Form } from './Form'
 export const Main = () => {
   return (
     <main className='main' >
-      <a href='#' >
+      <a href='/' >
         <img src={logo} alt="base apparel" className='main__logo' />
       </a>
       <picture>
-        <source media="(min-width: 870px)" srcset={heroDesktop} />
+        <source media="(min-width: 600px)" srcset={heroDesktop} />
         <img src={heroMobile} alt="" aria-disabled="true" />
       </picture>
       <Form />
