@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL]()
-- [Live site URL]()
+- [Solution URL](https://www.frontendmentor.io/solutions/base-apparel-coming-soon-page-jC6u_dAeNN)
+- [Live site URL](https://frolicking-frangollo-9b0933.netlify.app/)
 
 ## My process
 
